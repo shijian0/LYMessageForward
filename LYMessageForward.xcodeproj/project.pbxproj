@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		58A0E6D5225B3A2B0035D62B /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A0E6D4225B3A2B0035D62B /* Dog.m */; };
+		58A0E6DB225B49400035D62B /* Cat.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A0E6DA225B49400035D62B /* Cat.m */; };
 		58B57A4D225B0CCE00D62F2B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B57A4C225B0CCE00D62F2B /* AppDelegate.m */; };
 		58B57A50225B0CCE00D62F2B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B57A4F225B0CCE00D62F2B /* ViewController.m */; };
 		58B57A53225B0CCE00D62F2B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58B57A51225B0CCE00D62F2B /* Main.storyboard */; };
@@ -15,6 +17,7 @@
 		58B57A5B225B0CD000D62F2B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B57A5A225B0CD000D62F2B /* main.m */; };
 		58B57A65225B0CD000D62F2B /* LYMessageForwardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B57A64225B0CD000D62F2B /* LYMessageForwardTests.m */; };
 		58B57A70225B0CD000D62F2B /* LYMessageForwardUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B57A6F225B0CD000D62F2B /* LYMessageForwardUITests.m */; };
+		58B57A7F225B0D0700D62F2B /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B57A7E225B0D0700D62F2B /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		58A0E6D3225B3A2B0035D62B /* Dog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
+		58A0E6D4225B3A2B0035D62B /* Dog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
+		58A0E6D9225B49400035D62B /* Cat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Cat.h; sourceTree = "<group>"; };
+		58A0E6DA225B49400035D62B /* Cat.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Cat.m; sourceTree = "<group>"; };
 		58B57A48225B0CCE00D62F2B /* LYMessageForward.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LYMessageForward.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		58B57A4B225B0CCE00D62F2B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		58B57A4C225B0CCE00D62F2B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +58,8 @@
 		58B57A6B225B0CD000D62F2B /* LYMessageForwardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LYMessageForwardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		58B57A6F225B0CD000D62F2B /* LYMessageForwardUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYMessageForwardUITests.m; sourceTree = "<group>"; };
 		58B57A71225B0CD000D62F2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58B57A7D225B0D0700D62F2B /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		58B57A7E225B0D0700D62F2B /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +114,12 @@
 				58B57A4C225B0CCE00D62F2B /* AppDelegate.m */,
 				58B57A4E225B0CCE00D62F2B /* ViewController.h */,
 				58B57A4F225B0CCE00D62F2B /* ViewController.m */,
+				58B57A7D225B0D0700D62F2B /* Person.h */,
+				58B57A7E225B0D0700D62F2B /* Person.m */,
+				58A0E6D3225B3A2B0035D62B /* Dog.h */,
+				58A0E6D4225B3A2B0035D62B /* Dog.m */,
+				58A0E6D9225B49400035D62B /* Cat.h */,
+				58A0E6DA225B49400035D62B /* Cat.m */,
 				58B57A51225B0CCE00D62F2B /* Main.storyboard */,
 				58B57A54225B0CD000D62F2B /* Assets.xcassets */,
 				58B57A56225B0CD000D62F2B /* LaunchScreen.storyboard */,
@@ -262,8 +277,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58A0E6DB225B49400035D62B /* Cat.m in Sources */,
 				58B57A50225B0CCE00D62F2B /* ViewController.m in Sources */,
 				58B57A5B225B0CD000D62F2B /* main.m in Sources */,
+				58A0E6D5225B3A2B0035D62B /* Dog.m in Sources */,
+				58B57A7F225B0D0700D62F2B /* Person.m in Sources */,
 				58B57A4D225B0CCE00D62F2B /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -437,6 +455,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JG7V8RC934;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				INFOPLIST_FILE = LYMessageForward/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -454,6 +473,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JG7V8RC934;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				INFOPLIST_FILE = LYMessageForward/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
